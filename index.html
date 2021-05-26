@@ -1,23 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="./css/main.css" />
-    </head>
-    <body>
-        <!-- HEADER -->
-        <header>
-            <img src="" alt="" />
-            <nav class="menu"></nav>
-        </header>
-        <!-- MAIN -->
-        <main></main>
-        <!-- FOOTER -->
-        <footer>
-            <h6 class="copy">&copy;Copyright</h6>
-        </footer>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+
+    </header>
+    <!-- MAIN -->
+    <main>
+        <section class="card">
+            <h4> Bienvenido</h4>
+            <h5>Como si estuvieras en tu casa</h5>
+
+            <picture>
+                <!-- picture imagen izquierda  -->
+                <!-- media width 320px para que solo salga en movil  -->
+                <source srcset="
+                ./img/smartphone/trigo.jpg 1x,
+                ./img/smartphone/trigo@2x.jpg 2x,
+                ./img/smartphone/trigo@3x.jpg 3x" 
+                
+                
+                media="(min-width:320px) and (orientation:portrait)">
+                <source src="  ">
+
+                <img src="" alt="">
+            </picture>
+
+            <picture>
+                <!-- picture  imagen  derecha -->
+                <source srcset="
+                ./img/smartphone/cereales.jpg 1x,
+                ./img/smartphone/cereales@2x.jpg 2x,
+                ./img/smartphone/cereales@3x.jpg 3x" 
+                
+                media="(min-width:320px) and (orientation:portrait)">
+                <source src="  ">
+
+                <img src="" alt="">
+            </picture>
+
+            <h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non praesent arcu tempus ac nisl integer tellus
+                urna. </h5>
+
+            <a class="boton" href="#">Leer más...</a>
+
+
+
+        </section>
+
+
+
+
+
+
+
+
+
+    </main>
+    <!-- FOOTER -->
+    <footer>
+
+    </footer>
+</body>
+
 </html>

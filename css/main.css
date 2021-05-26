@@ -8,10 +8,26 @@
 /* ********** */
 /* @TIPOGRAFÍA */
 /* ********** */
+@font-face {
+  font-family: "roboto";
+  src: url(../../font/roboto-regular-webfont.woff2) format("woff2"), url(../../font/roboto-regular-webfont.woff) format("woff");
+}
+html {
+  font-size: 18px;
+  font-family: "roboto", sans-serif;
+  color: black;
+}
+
 /* @MIXIN */
 /* ********** */
 /* @BOTONES */
 /* ********** */
+.boton {
+  background-color: #FFF500;
+  text-decoration: none;
+  color: #000000;
+}
+
 /* @COVER_BANNER */
 /* ********** */
 /* @GRIDS */
